@@ -23,6 +23,7 @@ public class Springboot0101QuickstartApplication {
         Blue blue = context.getBean(Blue.class);
         System.err.println(blue);
         System.err.println("hello1");
+        System.err.println("hello2");
     }
 
 }
