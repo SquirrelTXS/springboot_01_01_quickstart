@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class Springboot0101QuickstartApplication {
 
+    //bean注释
     @Bean("blue1")
     public Blue blue() {
         return new Blue();
